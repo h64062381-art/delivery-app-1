@@ -1,0 +1,19 @@
+وصّلني V13 — ملفات التعديل فقط
+
+استبدل:
+1) app.js
+2) style.css
+
+أضف:
+3) reports.html
+4) driver-tasks.html
+5) restaurant-manage.html
+6) schema-v13.sql
+
+ثم شغّل schema-v13.sql في Supabase AFTER schema.sql.
+
+مهم:
+- لا تحذف schema.sql القديم.
+- هذه النسخة تطور التشغيل والواجهة وتضيف طبقة تقارير/مهام/إدارة مطعم.
+- الدفع الإلكتروني الحقيقي، الخرائط الحية، Push Notifications، وOTP تحتاج مفاتيح وحسابات الخدمات قبل الإطلاق.
+- المطاعم التجريبية تبقى Demo إلى أن تستبدلها ببيانات مطاعم حقيقية من Supabase.
